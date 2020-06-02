@@ -9,7 +9,7 @@ class AbilitiesController < ApplicationController
     filtering_params(params).each do |key, value|
     @abilities = @abilities.public_send(key, value) if value.present?
     end
-    console
+    
   end
 
   # GET /abilities/1
