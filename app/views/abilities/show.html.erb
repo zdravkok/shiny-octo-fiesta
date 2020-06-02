@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @ability.name %>
+</p>
+
+<p>
+  <strong>Page:</strong>
+  <%= @ability.page %>
+</p>
+
+<p>
+  <strong>Pool:</strong>
+  <%= @ability.pool %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @ability.cost %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @ability.category %>
+</p>
+
+<p>
+  <strong>Power:</strong>
+  <%= @ability.power %>
+</p>
+
+<p>
+  <strong>Kind:</strong>
+  <%= @ability.kind %>
+</p>
+
+<%= link_to 'Edit', edit_ability_path(@ability) %> |
+<%= link_to 'Back', abilities_path %>

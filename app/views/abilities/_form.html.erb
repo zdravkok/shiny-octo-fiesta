@@ -1,0 +1,52 @@
+<%= form_with(model: ability, local: true) do |form| %>
+  <% if ability.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ability.errors.count, "error") %> prohibited this ability from being saved:</h2>
+
+      <ul>
+        <% ability.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :page %>
+    <%= form.number_field :page %>
+  </div>
+
+  <div class="field">
+    <%= form.label :pool %>
+    <%= form.text_field :pool %>
+  </div>
+
+  <div class="field">
+    <%= form.label :cost %>
+    <%= form.number_field :cost %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category %>
+    <%= form.text_field :category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :power %>
+    <%= form.text_field :power %>
+  </div>
+
+  <div class="field">
+    <%= form.label :kind %>
+    <%= form.text_field :kind %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

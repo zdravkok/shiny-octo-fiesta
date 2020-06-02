@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Abilities</h1>
+
+<%= form_tag "/abilities", method: :get  do %>
+  <%= text_field_tag :keyword, params[:keyword], placeholder: "Keyword" %>
+  <%= select_tag :kind, options_for_select(["Action","Enabler"], params[:kind]), include_blank: "Kind" %>
+  <%= select_tag :cost, options_for_select(["0","1","2","3","4","5","6","7","8"], params[:cost]), include_blank: "Cost" %>
+  <%= select_tag :pool, options_for_select(["Might", "Speed", "Intellect"], params[:pool]), include_blank: "Pool" %>
+<%= select_tag :power, options_for_select(["Low", "Mid", "High"], params[:power]), include_blank: "Power" %>
+  <%= select_tag :category, options_for_select(["Attack Skill","Companion","Control","Craft","Cure","Environment","Information","Meta","Movement","Protection","Senses","Social","Special Attack","Support","Task","Transform"], params[:category]), include_blank: "Category" %>
+  <%= submit_tag "Filter" %>
+  <%= link_to "Reset Filter", abilities_path %>
+<% end -%>
+
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+
+      <th>Kind</th>
+      <th>Cost</th>
+      <th>Pool</th>
+      <th>Power</th>
+      <th>Category</th>
+      <th>Foci</th>
+      <th>Set</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @abilities.each do |ability| %>
+      <tr>
+        <td><%= ability.name %> (<%= ability.page %>)</td>
+
+        <td><%= ability.kind %></td>
+        <td><%= ability.cost %></td>
+        <td><%= ability.pool %></td>
+        <td><%= ability.power %></td>
+        <td><%= ability.category %></td>
+        <td><%= ability.foci %></td>
+        <td><%= ability.category %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
