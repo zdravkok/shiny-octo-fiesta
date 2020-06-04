@@ -74,7 +74,7 @@ class AbilitiesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def ability_params
-      params.require(:ability).permit(:name, :page, :pool, :cost, :category, :power, :kind)
+      params.require(:ability).permit(:name, :page, :pool, :cost, :category, :power, :kind, :set)
     end
 
     # A list of the param names that can be used for filtering the Product list
