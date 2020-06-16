@@ -25,6 +25,9 @@ ActiveRecord::Schema.define(version: 2020_02_28_163212) do
     t.string "kind"
     t.string "foci"
     t.string "set"
+    t.string "types"
+    t.string "flavor"
+    t.string "note"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -10,7 +10,9 @@ class CreateAbilities < ActiveRecord::Migration[6.0]
       t.string :kind
       t.string :foci
       t.string :set
-
+      t.string :types
+      t.string :flavor
+      t.string :note
       t.timestamps
     end
   end
