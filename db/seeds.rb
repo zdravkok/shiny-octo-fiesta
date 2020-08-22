@@ -351,14 +351,14 @@ Ability.create!(
   page: 109,
   pool: 'Might',
   cost: "2",
-  category: 'Senses',
+  category: 'Senses, Task',
   power: 'High',
   kind: 'Action',
   foci: 'Thunders',
   set: 'N/A',
   types: 'N/A',
   flavor: 'N/A',
-  note: 'Additional Category: Task'
+  note: ''
 )
 
 Ability.create!(
@@ -381,14 +381,14 @@ Ability.create!(
   page: 109,
   pool: 'N/A',
   cost: "0",
-  category: 'Senses',
+  category: 'Senses, Task',
   power: 'Mid',
   kind: 'Enabler',
   foci: 'Lives In The Wilderness',
   set: 'N/A',
   types: 'N/A',
   flavor: 'N/A',
-  note: 'Additional Category: Task'
+  note: ''
 )
 
 Ability.create!(
@@ -501,14 +501,14 @@ Ability.create!(
   page: 110,
   pool: 'Intellect',
   cost: "1",
-  category: 'Meta',
+  category: 'Meta, Special Attack',
   power: 'Low',
-  kind: 'Action/Enabler',
+  kind: 'Action, Enabler',
   foci: 'Masters Spells',
   set: 'N/A',
   types: 'N/A',
   flavor: 'N/A',
-  note: 'Additional Category: Special Attack, Additional Kind: Action'
+  note: ''
 )
 
 Ability.create!(
@@ -546,14 +546,14 @@ Ability.create!(
   page: 110,
   pool: 'N/A',
   cost: "0",
-  category: 'Attack',
+  category: 'Attack, Task',
   power: 'High',
   kind: 'Action',
   foci: 'Was Foretold',
   set: 'N/A',
   types: 'N/A',
   flavor: 'N/A',
-  note: 'Additional Category: Task'
+  note: ''
 )
 
 Ability.create!(
