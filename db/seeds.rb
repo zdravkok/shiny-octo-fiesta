@@ -561,7 +561,7 @@ Ability.create!(
   page: 110,
   pool: 'N/A',
   cost: "0",
-  category: 'Companion',
+  category: 'Companion, Senses',
   power: 'High',
   kind: 'Enabler',
   foci: 'Controls Beasts',
@@ -721,3 +721,692 @@ Ability.create!(
   note: ''
 )
 
+Ability.create!(
+  name: 'Babel',
+  kind: 'Enabler',
+  page: 112,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Information',
+  power: 'Low',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'Speaker T1',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Balance',
+  kind: 'Enabler',
+  page: 112,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Task',
+  power: 'Low',
+  foci: 'Moves Like A Cat',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Band of Desperados',
+  kind: 'Enabler',
+  page: 112,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Companion',
+  power: 'High',
+  foci: 'Is Wanted By The Law',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Band of Followers',
+  kind: 'Enabler',
+  page: 112,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Companion',
+  power: 'High',
+  foci: 'Leads',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bash',
+  kind: 'Action',
+  page: 112,
+  pool: 'Might',
+  cost: "1",
+  category: 'Special Attack',
+  power: 'Low',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'Warrior T1',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Basic Follower',
+  kind: 'Enabler',
+  page: 112,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Companion',
+  power: 'Low',
+  foci: 'Leads',
+  set: 'N/A',
+  types: 'Speaker T2',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Battle Management',
+  kind: 'Action',
+  page: 112,
+  pool: 'Intellect',
+  cost: "4",
+  category: 'Support',
+  power: 'High',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'Speaker T6',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Battlefield Tactician',
+  kind: 'Enabler',
+  page: 112,
+  pool: 'Intellect',
+  cost: "2+",
+  category: 'Senses',
+  power: 'High',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Beast Call',
+  kind: 'Action',
+  page: 112,
+  pool: 'Intellect',
+  cost: "5",
+  category: 'Companion',
+  power: 'High',
+  foci: 'Controls Beasts',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Beast Companion',
+  kind: 'Enabler',
+  page: 112,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Companion',
+  power: 'Low',
+  foci: 'Controls Beasts',
+  set: 'As If One Creature, Beast Eyes, Stronger Together',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Beast Eyes',
+  kind: 'Action',
+  page: 112,
+  pool: 'Intellect',
+  cost: "3",
+  category: 'Companion, Senses',
+  power: 'Mid',
+  foci: 'Controls Beasts',
+  set: 'As If One Creature, Beast Companion, Stronger Together',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Beast Form',
+  kind: 'Action',
+  page: 112,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Transform',
+  power: 'Low',
+  foci: 'Howls At The MooN',
+  set: 'Bigger Beast Form, Controlled Change, Enhanced Beast Form, Greater Beast Form, Greater Controlled Change, Perfect Control',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bestiary Knowledge',
+  kind: 'Enabler',
+  page: 113,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Task',
+  power: 'Low',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Betrayal',
+  kind: 'Enabler',
+  page: 113,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Meta, Social',
+  power: 'Mid',
+  foci: 'FIGHTS DIRTY',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Better Living Through Chemistry',
+  kind: 'Action',
+  page: 113,
+  pool: 'Intellect',
+  cost: "4+",
+  category: 'Meta',
+  power: 'Mid',
+  foci: 'CONDUCTS WEIRD SCIENCE',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Better Surprise Attack',
+  kind: 'Enabler',
+  page: 113,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Special Attack',
+  power: 'Mid',
+  foci: 'MURDERS',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bigger',
+  kind: 'Enabler',
+  page: 113,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Transform',
+  power: 'Low',
+  foci: 'Grows To Towering Heights',
+  set: 'Enlarge, Gargantuan, Huge',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bigger Beast Form',
+  kind: 'Enabler',
+  page: 113,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Transform',
+  power: 'Mid',
+  foci: 'Howls At The Moon',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Biomorphic Detonation',
+  kind: 'Action',
+  page: 113,
+  pool: 'Might',
+  cost: "7+",
+  category: 'Special Attack',
+  power: 'High',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Biomorphic Healing',
+  kind: 'Action',
+  page: 113,
+  pool: 'Might',
+  cost: "4+",
+  category: 'Cure',
+  power: 'Mid',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Blameless',
+  kind: 'Enabler',
+  page: 113,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Task',
+  power: 'Low',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Blend In',
+  kind: 'Action',
+  page: 113,
+  pool: 'Intellect',
+  cost: "4",
+  category: 'Transform',
+  power: 'Mid',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'Speaker T3',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Blessing of the Gods',
+  kind: '',
+  page: 114,
+  pool: 'N/A',
+  cost: "0",
+  category: '',
+  power: '',
+  foci: 'Channels Divine Blessings',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'Magic T1',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Blind Machine',
+  kind: 'Action',
+  page: 114,
+  pool: 'Speed',
+  cost: "6",
+  category: 'Special Attack',
+  power: 'High',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Blinding Attack',
+  kind: 'Action',
+  page: 115,
+  pool: 'Speed',
+  cost: "3",
+  category: 'Special Attack',
+  power: 'High',
+  foci: 'Explores Dark Places',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Blink of an Eye',
+  kind: 'Action',
+  page: 115,
+  pool: 'Speed',
+  cost: "4",
+  category: 'Movement',
+  power: 'Mid',
+  foci: 'Flies Faster Than A Bullet, Moves Like The Wind',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Block',
+  kind: 'Action',
+  page: 115,
+  pool: 'Speed',
+  cost: "3",
+  category: 'Protection',
+  power: 'Low',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'Explorer T1',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Block for Another',
+  kind: 'Enabler',
+  page: 115,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Support',
+  power: 'High',
+  foci: 'Fights With Panache',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Blood Fever',
+  kind: 'Enabler',
+  page: 115,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Attack, Protection',
+  power: 'Mid',
+  foci: 'Blood Fever',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bloodlust',
+  kind: 'Enabler',
+  page: 115,
+  pool: 'Might',
+  cost: "3",
+  category: 'Special Attack',
+  power: 'Low',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'Combat T2',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Blurring Speed',
+  kind: 'Enabler',
+  page: 115,
+  pool: 'Speed',
+  cost: "7",
+  category: 'Meta, Movement',
+  power: 'High',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bolt Rider',
+  kind: 'Action',
+  page: 115,
+  pool: 'Intellect',
+  cost: "4",
+  category: 'Movement',
+  power: 'Low',
+  foci: 'Rides The Lightning',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bolts of Power',
+  kind: 'Action',
+  page: 115,
+  pool: 'Intellect',
+  cost: "5+",
+  category: 'Special Attack',
+  power: 'Mid',
+  foci: 'Rides The Lightning',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bouncing Shield',
+  kind: 'Enabler',
+  page: 115,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Special Attack',
+  power: 'High',
+  foci: 'Brandishes An Exotic Shield',
+  set: 'Throw Force Shield	',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bound Magic Creature',
+  kind: 'Action',
+  page: 115,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Companion',
+  power: 'Low',
+  foci: 'Keeps A Magic Ally',
+  set: 'Hidden Closet,  Improved Object Bond, Minor Wish, Moderate Wish,  Object Bond, Object Bond Mastery',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Brainwashing',
+  kind: 'Action',
+  page: 116,
+  pool: 'Intellect',
+  cost: "6+",
+  category: 'Control',
+  power: 'High',
+  foci: 'Infiltrates',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Break the Line',
+  kind: 'Action',
+  page: 116,
+  pool: 'Intellect',
+  cost: "4",
+  category: 'Senses',
+  power: 'Mid',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Break the Ranks',
+  kind: 'Action',
+  page: 116,
+  pool: 'Speed',
+  cost: "6",
+  category: 'Special Attack',
+  power: 'High',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Break Their Mind',
+  kind: 'Action',
+  page: 116,
+  pool: 'Intellect',
+  cost: "7+",
+  category: 'Special Attack',
+  power: 'High',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Breaker',
+  kind: 'Enabler',
+  page: 116,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Task',
+  power: 'Low',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Brute Strike',
+  kind: 'Enabler',
+  page: 116,
+  pool: 'Might',
+  cost: "0",
+  category: 'Special Attack',
+  power: '',
+  foci: 'Performs Feats Of Strength',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Buddy System',
+  kind: 'Action',
+  page: 116,
+  pool: 'Intellect',
+  cost: "3",
+  category: 'Support',
+  power: 'Mid',
+  foci: 'Helps Their Friends',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Built-in Weaponry',
+  kind: 'Action',
+  page: 116,
+  pool: 'N/A',
+  cost: "0",
+  category: 'Special Attack',
+  power: 'Mid',
+  foci: 'Crafts Unique Objects',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Burning Light',
+  kind: 'Action',
+  page: 116,
+  pool: 'Intellect',
+  cost: "3",
+  category: 'Special Attack',
+  power: 'Mid',
+  foci: 'Blazes With Radiance, Flies Faster Than A Bullet',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Burst of Escape',
+  kind: 'Enabler',
+  page: 116,
+  pool: 'Speed',
+  cost: "5",
+  category: 'Meta',
+  power: 'High',
+  foci: 'Runs Away',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
+
+Ability.create!(
+  name: 'Bypass Barrier',
+  kind: 'Action',
+  page: 116,
+  pool: 'Intellect',
+  cost: "6+",
+  category: 'Movement',
+  power: 'Mid',
+  foci: 'N/A',
+  set: 'N/A',
+  types: 'N/A',
+  flavor: 'N/A',
+  note: ''
+)
